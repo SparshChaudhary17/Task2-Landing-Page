@@ -1,0 +1,99 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+background: #fefefc;
+color: #2d3d2a;
+}
+
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+background: #e6f0e6;
+}
+
+nav a {
+margin: 0 10px;
+text-decoration: none;
+color: #2d3d2a;
+font-weight: 500;
+}
+
+.hero {
+display: flex;
+align-items: center;
+justify-content: space-between;
+background: #f5fdf5;
+padding: 40px;
+}
+
+.hero-text h2 {
+font-size: 40px;
+margin-bottom: 10px;
+}
+
+.hero-text p {
+margin-bottom: 20px;
+}
+
+.hero button {
+padding: 10px 20px;
+background: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+font-size: 16px;
+}
+
+.hero img {
+max-width: 300px;
+height: auto;
+}
+
+.features, .products, .tips, .newsletter {
+padding: 40px 20px;
+text-align: center;
+}
+
+.feature, .product, .tip {
+margin: 15px;
+padding: 15px;
+border: 1px solid #d2d2d2;
+border-radius: 8px;
+background-color: #ffffff;
+display: inline-block;
+width: 200px;
+}
+
+.tip-grid, .product-grid {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.newsletter input {
+padding: 10px;
+width: 250px;
+margin-top: 10px;
+margin-right: 10px;
+}
+
+.newsletter button {
+padding: 10px 20px;
+background: #4CAF50;
+color: white;
+border: none;
+cursor: pointer;
+}
+
+footer {
+background: #e6f0e6;
+padding: 20px;
+text-align: center;
+}
